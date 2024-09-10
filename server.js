@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use('/api/notes', noteRoutes);
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://rubikrooban4:thisisthepassword@cluster0.ehn0a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://vikramshanmugam2002:vikramshanmugam2002@cluster0.llpsd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
 
